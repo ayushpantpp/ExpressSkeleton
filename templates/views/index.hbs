@@ -2,7 +2,8 @@
 
 <html>
   <head>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
   </head>
 
     <body>
@@ -10,9 +11,15 @@
         {{>header}}
         <h3>{{name}}</h3>
         <img class = "potrait" src="assets/img/Photo.jpg"/> 
+        <form>
+          <input placeholder="Location">
+          <button id="submit">Search</button>
+        </form>
       </div>
-      
+      <p id="mess_1"></p>
+      <p id="mess_2"></p>
       {{>footer}}
+      <script src="assets/js/app.js"></script>
 
     </body>
 </html>
